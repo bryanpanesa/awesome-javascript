@@ -1,0 +1,79 @@
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  text-align: center;
+  background: #2980b9; }
+
+header {
+  color: #fff;
+  text-align: center; }
+  header h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 0.7; }
+    header h1 span.js {
+      font-weight: 600;
+      background: #f1c40f;
+      padding-top: 1.5rem;
+      padding-left: 1rem;
+      padding-right: 0.3rem;
+      padding-bottom: -1rem;
+      color: #000; }
+    header h1 span.weird {
+      font-style: italic; }
+    header h1 p {
+      font-size: 2.2rem; }
+  header hr {
+    border: 1px solid #fff;
+    width: 40%; }
+
+section#topics {
+  display: inline-block;
+  border-radius: 5px;
+  width: 95%;
+  height: auto;
+  margin: 1%;
+  padding: 1%;
+  background: #3498db;
+  font-size: 2.4rem;
+  color: #eee; }
+  section#topics button {
+    display: inline-block;
+    font-size: 2.4rem;
+    padding: 15px;
+    margin: 1%;
+    border-radius: 5px;
+    border: none;
+    background: #e74c3c;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    section#topics button:hover {
+      background: #eb6d60;
+      cursor: pointer; }
+
+.output h2 {
+  font-size: 2.5rem;
+  padding: 15px; }
+
+.output span {
+  padding: 8px 15px; }
+  .output span.ftwelve {
+    background: tomato; }
+  .output span#ninethousand {
+    color: #f1c40f;
+    font-size: 5rem;
+    font-weight: 700;
+    display: inline-block;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
+
+.output p {
+  line-height: 0.1; }
