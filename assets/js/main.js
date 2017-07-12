@@ -23,7 +23,7 @@ function eventDrivenEnv() {
 	console.log('---- Event-Driven Environment ----');
 	var eventVar = 9000;
 	console.log(eventVar);
-	output.innerHTML = '<h2>Event-Driven Environment<span id="working">should be</span>working!</h2>'
+	output.innerHTML = '<h2>Event-driven Environment<span id="working">should be</span>working!</h2>'
 	+'It\'s over <span id="ninethousand"></span><div id=""><button id="eventBtn">Trigger Event</button></div>';
 
 	document.getElementById("eventBtn").addEventListener("click", function() {
@@ -73,6 +73,5 @@ function scope() {
 		firstScope();
 		secondScope();
 		console.log(x);
-	});
-	
+	});	
 }
