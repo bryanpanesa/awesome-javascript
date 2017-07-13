@@ -50,7 +50,7 @@ function closure() {
 	});
 }
 
-// Scope // 
+// Scope 
 function scope() {
 	console.log('------------- Scope -------------');
 
@@ -74,4 +74,32 @@ function scope() {
 		secondScope();
 		console.log(x);
 	});	
+}
+
+// Context
+function context() {
+	console.log('------------ Context ------------');
+	output.innerHTML = '<h2>Context<span id="working">should be</span>working!</h2>'
+	+'<p>means "this"</p>'
+	+'<div id=""><button id="eventBtn" class="cntBtn">Turn OFF</button></div>'
+	+ '<div id="contextDiv" class="">It\'s over <span id="ninethousand">9000!</span></div>';
+
+	var contextDiv = document.getElementById("contextDiv");
+	var ev = document.getElementById("eventBtn");
+	var cntBtn = document.querySelector(".cntBtn");
+	contextDiv.className = " cntdiv";
+	document.getElementById("eventBtn").addEventListener("click", function() {
+		cntBtn.style.background = "#2ecc71";
+	    if(contextDiv.style.display == 'block') {
+	    	contextDiv.style.display = 'none';
+	    	ev.innerHTML = 'Turn ON';
+	    	cntBtn.style.background = "#2ecc71";
+	    	console.log('Yes! I\'m finally free!');
+	    }
+	    else {
+	    	contextDiv.style.display = 'block';
+	    	ev.innerHTML = 'Turn OFF';
+	    	cntBtn.style.background = "#e74c3c";
+	    } 
+	});
 }

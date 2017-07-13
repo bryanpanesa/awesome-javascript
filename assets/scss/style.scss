@@ -2,6 +2,11 @@
 $blue:  #2980b9;
 $red: #e74c3c;
 $yellow: #f1c40f;
+$green: #2ecc71;
+$turquoise: #1abc9c;
+$violet: #9b59b6;
+$asphalt: #34495e;
+$orange: #e67e22;
 html {
 	margin: 0;
 	padding: 0;
@@ -93,5 +98,8 @@ section#topics {
 	}
 	p {
 		line-height: 0.1;
+	}
+	.cntdiv {
+		display: none;
 	}
 }

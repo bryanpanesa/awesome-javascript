@@ -77,3 +77,6 @@ section#topics {
 
 .output p {
   line-height: 0.1; }
+
+.output .cntdiv {
+  display: none; }
