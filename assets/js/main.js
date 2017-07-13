@@ -93,13 +93,15 @@ function context() {
 	    if(contextDiv.style.display == 'block') {
 	    	contextDiv.style.display = 'none';
 	    	ev.innerHTML = 'Turn ON';
-	    	cntBtn.style.background = "#2ecc71";
+	    	cntBtn.style.background = "#27ae60";
+	    	cntBtn.style.border = "5px solid #2ecc71"
 	    	console.log('Yes! I\'m finally free!');
 	    }
 	    else {
 	    	contextDiv.style.display = 'block';
 	    	ev.innerHTML = 'Turn OFF';
 	    	cntBtn.style.background = "#e74c3c";
+	    	cntBtn.style.border = "5px solid tomato";
 	    } 
 	});
 }

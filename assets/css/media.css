@@ -1,3 +1,8 @@
 @media only screen and (min-width: 1440px) {
   section#topics {
     width: 45%; } }
+
+@media only screen and (min-width: 425px) {
+  footer p {
+    line-height: 1.5;
+    font-size: 1.3rem; } }
